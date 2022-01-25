@@ -1,4 +1,9 @@
-body {background-color:white;}
-h1{color:green;font-family: Cursive;font-size:70px;text-align:centre}
-
+body {background-color:white;font-family:arial;
+    color:white}
+h1{color:grey;font-family:verdana}
+ .maindiv {
+    border-radius: 25px;color:black ; background-color:white;
+    width: 300px; align-items: center; position: absolute; 
+    right: 50%;
+    }
 
