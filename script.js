@@ -8,13 +8,17 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
     
     if(principal<0||principal==0)
-    {alert("Invalid input")}
+    {alert("Invalid input");
+    principal.focus();
+    return false;
+     }
 
     if(principal>0)
     {let output ="If you deposit "+principal+
     " at an interest rate of "+rate+
-    " You will receive an amount of "+f_amt+
+    " You will receive an amount of "+interest+
     " in the year "+year
+    
     document.getElementById("myText").innerHTML = output;
     
     }
