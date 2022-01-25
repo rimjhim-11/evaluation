@@ -1,9 +1,10 @@
-body {background-color:white;font-family:arial;
+body {background-color:black;font-family:arial;
     color:white}
 h1{color:grey;font-family:verdana}
  .maindiv {
     border-radius: 25px;color:black ; background-color:white;
-    width: 300px; align-items: center; position: absolute; 
-    right: 50%;
+    width: 400px; padding: 20px; align-items: center;position: absolute; 
+    right: 30%; top: 15%;
+
     }
 
