@@ -4,13 +4,25 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
+        <h1>Simple Interest Calculator</h1><br>
+        <form id="form1" onsubmit="return calcdata()">
+            <label for="amount">Amount :</label>
+            <input type="number" id="amount" name="amount">
+            <br>
+            <br>
+            <label for="rate">Rate :</label>
+            <input type="number" id="rate" name="rate">
+            <br>
+            <br>
+            <label for="years">No. of Years :</label>
+            <input type="number" id="years" name="years">
+            <br>
+            <br>
+            <label for="interest">Interest :</label>
+            <input type="number" id="interest" name="interest">
+            <br>
+            <br>
+            <input type="submit" value="Calculate">
+        </form>
     </body>
 </html>
